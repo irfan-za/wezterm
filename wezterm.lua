@@ -121,7 +121,10 @@ if ok then
         "index",
         { "process", padding = { left = 0, right = 1 } },
       },
-      tabline_x = { "ram", "cpu" },
+       tabline_x = {
+    { "ram", use_pwsh = true },
+    { "cpu", use_pwsh = true },
+  },
       tabline_y = { { "datetime", style = "%H:%M" }, "battery" },
       -- leave room on the right for the integrated window buttons
       tabline_z = { "domain" },
