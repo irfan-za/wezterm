@@ -196,7 +196,6 @@ config.keys = {
   { key = "j", mods = "LEADER", action = act.ActivatePaneDirection("Down") },
   { key = "k", mods = "LEADER", action = act.ActivatePaneDirection("Up") },
   { key = "l", mods = "LEADER", action = act.ActivatePaneDirection("Right") },
-  { key = 'v', mods = 'CTRL', action = wezterm.action.PasteFrom 'Clipboard' },
   { key = "z", mods = "LEADER", action = act.TogglePaneZoomState },
   { key = "x", mods = "LEADER", action = act.CloseCurrentPane({ confirm = true }) },
   { key = "o", mods = "LEADER", action = act.RotatePanes("Clockwise") },
