@@ -239,6 +239,10 @@ config.keys = {
     }),
   },
 
+  -- clipboard
+  -- CTRL+V pastes the system clipboard. CTRL+SHIFT+V (the default) still works.
+  -- { key = "v", mods = "CTRL", action = act.PasteFrom("Clipboard") },
+
   -- misc
   { key = "f", mods = "LEADER", action = act.Search({ CaseInSensitiveString = "" }) },
   { key = "e", mods = "LEADER", action = act.QuickSelect },
